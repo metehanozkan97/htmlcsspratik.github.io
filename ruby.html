@@ -1,0 +1,114 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+<title>Ruby</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+
+
+
+textarea{
+resize:none;
+}
+
+.rubyalign{
+ruby-align:start;
+}
+
+.rubyposition{
+    ruby-position:under;
+}
+.rubyoverhang{
+  ruby-align: right;
+  ruby-position: above;
+  ruby-overhang: whitespace
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<ul class="topnav">
+  <li><a href="index.html">Ana Sayfa</a></li>
+  <li><a href="html.html">Html</a></li>
+  <li class="right"><a href="hakkimizda.html">Hakkımızda</a></li>
+   <li class="dropdown">
+    <a class="active" href="javascript:void(0)" class="dropbtn">Css</a>
+    <div class="dropdown-content">
+      <a href="cssdosya.html">Css Giriş	</a>
+      <a href="animasyon.html">Animasyonlar</a>
+      <a href="background.html">Background</a>
+      <a href="border.html">Border</a>
+      <a href="box.html">Box</a>
+      <a href="column.html">Column</a>
+      <a href="colors.html">Colors</a>
+      <a href="font.html">Font</a>
+      <a href="listeler.html">Listeler</a>
+      <a href="outline.html">Outline</a>
+      <a href="pagedmedia.html">Paged Media</a>
+      <a href="positioning.html">Positioning</a>
+      <a href="ruby.html">Ruby</a>
+      <a href="table.html">Table</a>
+      <a href="text.html">Text</a>
+      <a href="templatelayout.html">Template Layout</a>
+      <a href="transition.html">Transition</a>
+      <a href="3d2dtransform.html">3D/2D Transform</a>
+    </div>
+  </li>
+</ul>
+</div>
+
+<h1 style="background-color:white;">Ruby Align</h1>
+<ruby class="rubyalign">
+  <rb>This is a long text to check</rb>
+  <rp>（</rp><rt>Kısa Ruby</rt><rp>）</rp>	
+</ruby>
+<br>
+<textarea rows="10" cols="114">
+.rubyalign{
+ruby-align:start;
+}
+BURAYA KADARINI STYLE ETİKETLERİ ARASINA YERLEŞTİRİYORUZ BUNDAN SONRASINI BODY ETİKETLERİ ARASINA YERLEŞTİRECEĞİZ
+<ruby class="rubyalign">
+  <rb>This is a long text to check</rb>
+  <rp>（</rp><rt>Kısa Ruby</rt><rp>）</rp>
+</ruby>
+</textarea>
+
+<h1 style="background-color:white;">Ruby Position</h1>
+<ruby class="rubyposition">
+  <rb>Metehan Özkan</rb>
+  <rp>（</rp><rt>İsim Soyisim</rt><rp>）</rp>
+</ruby>
+<br>
+<textarea rows="10" cols="114">
+.rubyposition{
+    ruby-position:under;
+}
+BURAYA KADARINI STYLE ETİKETLERİ ARASINA YERLEŞTİRİYORUZ BUNDAN SONRASINI BODY ETİKETLERİ ARASINA YERLEŞTİRECEĞİZ
+<ruby class="rubyposition">
+  <rb>Metehan Özkan</rb>
+  <rp>（</rp><rt>İsim Soyisim</rt><rp>）</rp>
+</ruby>
+</textarea>
+
+<h1 style="background-color:white;">Ruby Overhang</h1>
+<ruby class="rubyoverhang">
+  Ruby temel içeriği<rt>Ruby metni</rt>
+</ruby>
+<br>
+<textarea rows="11" cols="114">
+.rubyoverhang{
+  ruby-align: right;
+  ruby-position: above;
+  ruby-overhang: whitespace
+}
+BURAYA KADARINI STYLE ETİKETLERİ ARASINA YERLEŞTİRİYORUZ BUNDAN SONRASINI BODY ETİKETLERİ ARASINA YERLEŞTİRECEĞİZ
+<ruby class="rubyoverhang">
+  Ruby temel içeriği<rt>Ruby metni</rt>
+</ruby>
+</textarea>
+
+</body>
+</html>

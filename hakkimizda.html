@@ -1,0 +1,126 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+<title>Hakkımızda</title>
+<style>
+
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	height:70%;
+	overflow:auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="index.html">Ana Sayfa</a></li>
+  <li><a href="html.html">Html</a></li>
+  <li class="right"><a href="hakkimizda.html">Hakkımızda</a></li>
+   <li class="dropdown">
+    <a  href="javascript:void(0)" class="dropbtn">Css</a>
+    <div class="dropdown-content">
+      <a href="cssdosya.html">Css Giriş	</a>
+      <a href="animasyon.html">Animasyonlar</a>
+      <a href="background.html">Background</a>
+      <a href="border.html">Border</a>
+      <a href="box.html">Box</a>
+      <a href="column.html">Column</a>
+      <a href="colors.html">Colors</a>
+      <a href="font.html">Font</a>
+      <a href="listeler.html">Listeler</a>
+      <a href="outline.html">Outline</a>
+      <a href="pagedmedia.html">Paged Media</a>
+      <a href="positioning.html">Positioning</a>
+      <a href="ruby.html">Ruby</a>
+      <a href="table.html">Table</a>
+      <a href="text.html">Text</a>
+      <a href="templatelayout.html">Template Layout</a>
+      <a href="transition.html">Transition</a>
+      <a href="3d2dtransform.html">3D/2D Transform</a>
+    </div>
+  </li>
+</ul>
+
+<body background="https://i.hizliresim.com/5G7yGL.png">
+</body>
+</html>

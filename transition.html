@@ -1,0 +1,199 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+<title>Transition</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+
+textarea#bicim{
+resize:none;
+}
+div.transition{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+}
+div:hover {
+    width: 300px;
+	}
+	
+div.transitiondelay{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    -webkit-transition-delay: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+div:hover{
+    width: 300px;
+}
+
+div.transitionduration{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+}
+div:hover {
+    width: 300px;
+}
+
+div.transitionproperty{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+}
+div:hover {
+    width: 300px;
+}
+
+div.transitiontimingfunction{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+div:hover {
+    width: 300px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<ul class="topnav">
+  <li><a href="index.html">Ana Sayfa</a></li>
+  <li><a href="html.html">Html</a></li>
+  <li class="right"><a href="hakkimizda.html">Hakkımızda</a></li>
+   <li class="dropdown">
+    <a class="active" href="javascript:void(0)" class="dropbtn">Css</a>
+    <div class="dropdown-content">
+      <a href="cssdosya.html">Css Giriş	</a>
+      <a href="animasyon.html">Animasyonlar</a>
+      <a href="background.html">Background</a>
+      <a href="border.html">Border</a>
+      <a href="box.html">Box</a>
+      <a href="column.html">Column</a>
+      <a href="colors.html">Colors</a>
+      <a href="font.html">Font</a>
+      <a href="listeler.html">Listeler</a>
+      <a href="outline.html">Outline</a>
+      <a href="pagedmedia.html">Paged Media</a>
+      <a href="positioning.html">Positioning</a>
+      <a href="ruby.html">Ruby</a>
+      <a href="table.html">Table</a>
+      <a href="text.html">Text</a>
+      <a href="templatelayout.html">Template Layout</a>
+      <a href="transition.html">Transition</a>
+      <a href="3d2dtransform.html">3D/2D Transform</a>
+    </div>
+  </li>
+</ul>
+</div>
+
+<h1 style="background-color:white;">Transitions</h1>
+<div class="transition"></div>
+<textarea id="bicim" rows="11" cols="58">
+div.transition{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+}
+div:hover {
+    width: 300px;
+	}
+</textarea>
+
+<h1 style="background-color:white;">Transition Delay</h1>
+<div class="transitiondelay"></div>
+<textarea id="bicim" rows="15" cols="54">
+div.transitiondelay{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    -webkit-transition-delay: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+div:hover{
+    width: 300px;
+}
+</textarea>
+
+<h1 style="background-color:white;">Transition Duration</h1>
+<div class="transitionduration"></div>
+<textarea id="bicim" rows="13" cols="54">
+div.transitionduration{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+}
+div:hover {
+    width: 300px;
+}
+</textarea>
+
+<h1 style="background-color:white;">Transition Property</h1>
+<div class="transitionproperty"></div>
+<textarea id="bicim" rows="13" cols="53">
+div.transitionproperty{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+}
+div:hover {
+    width: 300px;
+}
+</textarea>
+
+<h1 style="background-color:white;">Transition Timing Function</h1>
+<div class="transitiontimingfunction"></div>
+<textarea id="bicim" rows="13" cols="61">
+div.transitiontimingfunction{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+div:hover {
+    width: 300px;
+}
+</textarea>
+
+
+</body>
+</html>
